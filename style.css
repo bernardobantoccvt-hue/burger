@@ -1,0 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fafafa;
+    overflow-x: hidden;
+}
+
+/* Home Styling */
+#home {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1550547660-d9450f859349?w=1920') center/cover;
+    color: white;
+}
+
+.intro-box {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border: 2px solid #ffc107;
+    border-radius: 20px;
+    max-width: 800px;
+}
+
+/* Menu Styling */
+.menu-img {
+    height: 160px;
+    object-fit: cover;
+}
+
+.menu-card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Game Styling */
+#gameCanvas {
+    background: #ffffff;
+    border: 5px solid #333;
+    border-radius: 15px;
+    max-width: 95%;
+    cursor: none;
+    touch-action: none;
+}
